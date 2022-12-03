@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+      <meta charset="UTF-8">
+      <title>Advanced Database Final Project</title>
+      <link rel="stylesheet" href="{{ url_for('static',filename='main.css') }}" type="text/css">
+</head>
+<body>
+  <h1 style="text-align:center;">Advanced Database Final Project</h1>
+	<div id="login-form-wrap" class="box">
+  			<h2>Log in</h2>
+  			<form id="login-form" action="/" method="post">
+			<p>
+			<input type="text" name="username" id="username" placeholder="Username" required><i class="validation"><span></span><span></span></i>
+			</p>
+			<p>
+			<input type="password" name="password" id="password" placeholder="Password" required/>
+			</p>
+			<p>
+			<input type="submit" id="login" class="button" value="Log In"/>
+  			</p>
+  			<br>
+  			</form>
+	</div>
+</body>
+</html>
